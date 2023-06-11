@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
 
 class App extends Component {
   state = {
@@ -9,23 +10,20 @@ class App extends Component {
 
 
 
+
+
+render() {
+
+  const { good, neutral, bad } = this.state;
+
+  return <div>
+      {/* <Section title="Please leave feedback"> */}
+        <FeedbackOptions 
+          options={Object.keys(this.state)}
+          onLeaveFeedback={this.onLeaveFeedback}
+        />
+      {/* </Section> */}
+  </div>
+  }
 }
-
-
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };
 export default App;
