@@ -15,7 +15,7 @@
   }
   
   .btn:hover {
-    transform: scale(1.05) rotate(-1deg);
+    transform: scale(1.05) rotate(1deg);
   }
   
   .good {

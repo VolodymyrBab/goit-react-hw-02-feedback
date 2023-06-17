@@ -17,12 +17,12 @@ render() {
   // const { good, neutral, bad } = this.state;
 
   return <div>
-      {/* <Section title="Please leave feedback"> */}
+      <Section title="Please leave feedback">
         <FeedbackOptions 
           options={Object.keys(this.state)}
           onLeaveFeedback={this.onLeaveFeedback}
         />
-      {/* </Section> */}
+      </Section>
   </div>
   }
 }
