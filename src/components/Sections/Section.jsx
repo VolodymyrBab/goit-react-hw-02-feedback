@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from '../Section/Section.module.css';
+import css from '../Sections/Section.module.css';
 
 
 

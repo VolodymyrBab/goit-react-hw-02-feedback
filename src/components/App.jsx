@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
+import Section from "./Sections/Section";
 
 class App extends Component {
   state = {
