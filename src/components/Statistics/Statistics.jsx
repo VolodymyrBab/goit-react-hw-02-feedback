@@ -10,21 +10,18 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
         <li className={css.item}>
           Good
           <span className={css.points}>
-            ..........................................................
           </span>
           <span className={css.value}>{good}</span>
         </li>
         <li className={css.item}>
           Neutral
           <span className={css.points}>
-            .....................................................
           </span>
           <span className={css.value}>{neutral}</span>
         </li>
         <li className={css.item}>
           Bad
-          <span className={css.points}>
-            ............................................................
+          <span className={css.points}>  
           </span>
           <span className={css.value}>{bad}</span>
         </li>
@@ -33,7 +30,6 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
       <p className={classNames(css.item, css.total)}>
         Total
         <span className={css.points}>
-          ..........................................................
         </span>
         <span className={css.value}>{total}</span>
       </p>
